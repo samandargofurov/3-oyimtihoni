@@ -860,19 +860,33 @@ header .header__container .sticky .order-status a {
   color: rgb(108, 113, 120);
 }
 
-.online-shopping-container {
+.online__shopping {
+  margin-bottom: 32px;
+}
+.online__shopping .online-shopping-container {
   background-color: #f8f8f9;
+  height: 330px;
+  position: relative;
   display: flex;
+  justify-content: space-between;
   padding: 45px 15px;
 }
-.online-shopping-container .aside-text {
+.online__shopping .online-shopping-container .aside-img img {
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+}
+.online__shopping .online-shopping-container .aside-text {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.online-shopping-container .aside-text h2 {
+.online__shopping .online-shopping-container .aside-text h2 {
   font-size: 32px;
   font-weight: 700;
   color: #222;
   width: 490px;
+}
+.online__shopping .online-shopping-container .aside-text p {
+  width: 370px;
 }/*# sourceMappingURL=style.css.map */

@@ -1017,25 +1017,43 @@ header{
 
 // online-shopping
 
-.online-shopping-container{
-    background-color: #f8f8f9;
-    display: flex;
-    padding: 45px 15px;
-
-    .aside-text{
+.online__shopping{
+    margin-bottom: 32px;
+    .online-shopping-container{
+        background-color: #f8f8f9;
+        height: 330px;
+        position: relative;
         display: flex;
-        flex-direction: column;
-        gap: 10px;
-
-        h2{
-            font-size: 32px;
-            font-weight: 700;
-            color: #222;
-            width: 490px;
+        justify-content: space-between;
+        padding: 45px 15px;
+    
+        .aside-img{
+            img{
+                position: absolute;
+                right: 15px;
+                bottom: 0;
+            }
+        }
+    
+        .aside-text{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+    
+            h2{
+                font-size: 32px;
+                font-weight: 700;
+                color: #222;
+                width: 490px;
+            }
+    
+            p{
+                width: 370px;
+            }
         }
     }
+    
 }
-
 
 
 
