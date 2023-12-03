@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    <!-- general -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>MediaPark</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    
+        <div class="navbar">
+            <div class="container navbar-container">
+                <div class="navbar-servise">
+                    <div class="phone"><a href="#"><img width="14" height="14" src="./img/svgexport-1.svg" alt=""><span>+998 71 203 33 33</span></a></div>
+                    <div class="location"><a href="#"><img width="14" height="14" src="./img/svgexport-2.svg" alt=""><span>Tashkent</span></a></div>
+                </div>
+                <ul class="nav">
+                    <li><a href="#">Biz haqimizda</a></li>
+                    <li><a href="#">Hamkorlik</a></li>
+                    <li><a href="#">Yuridik shaxslar uchun</a></li>
+                    <li><a href="#">Yetkazib berish</a></li>
+                    <li><a href="#">Doʻkonlar</a></li>
+                    <li><a href="#">Biz bilan bogʻlaning!</a></li>
+                    <select name="lan" id="O'zbekcha">
+                        <option value="lan">Pyccкий</option>z
+                        <option value="lan">O'zbekcha</option>
+                        <option value="lan">Ўзбекча</option>
+                    </select>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- header -->
+
+    <header>
+
+        <div class="container header__container">
+            <div class="logo">
+                <a href="#"><img width="155" height="25" src="./img/svgexport-4.svg" alt=""></a>
+            </div>
+            <div class="sticky">
+                <button>
+                    <img src="./img/search.svg" alt="Katalog icon"><span>Katalog</span>
+                </button>
+                <label class="search">
+                    <input type="text" placeholder="Mahsulotlarni qidirish"><a href="#"><img width="24" height="24" src="./img/search.svg" alt="search icon"></a>
+                </label>
+                <div class="categories">
+                    <div class="order-status"> <a href="#"><img width="24" height="24" src="./img/svgexport-7.svg" alt="order-status"><span>Buyurtma holati</span></a> </div>
+                    <div class="order-status"> <a href="#"><img width="24" height="24" src="./img/svgexport-8.svg" alt="order-status"><span>Taqqoslash</span></a> </div>
+                    <div class="order-status"> <a href="#"><img width="24" height="24" src="./img/svgexport-9.svg" alt="order-status"><span>Savatcha</span></a></div>
+                    <div class="order-status"> <a href="#"><img width="24" height="24" src="./img/svgexport-10.svg" alt="order-status"><span>Saralanganlar</span></a></div>
+                    <div class="order-status"> <a href="#"><img width="24" height="24" src="./img/svgexport-11.svg" alt="order-status"><span>Kirish</span></a></div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- page -->
+
+    <div class="page">
+        <div class="container header__navbar">
+                <ul>
+                    <li><a href="#" class="aksiya-name"><span>Aksiyalar</span></a></li>
+                    <li><a href="#">Smartfonlar</a></li>
+                    <li><a href="#">Muzlatgichlar</a></li>
+                    <li><a href="#">Apple</a></li>
+                    <li><a href="#">Noutbuklar</a></li>
+                    <li><a href="#">Kir yuvish mashinalari</a></li>
+                    <li><a href="#">Qahva mashinalari</a></li>
+                    <li><a href="#">Pishirish panellari</a></li>
+                    <li><a href="#">Smart soatlar</a></li>
+                    <li><a href="#">Konditsionerlar</a></li>
+                    <li><a href="#">Dazmollar</a></li>
+                </ul>
+        </div>
+   </div>
+
+    <!-- banner img -->
+
+    <div class="banner-img">
+            <div class="container2 header__banner">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/banner1.jpg" class="d-block w-100" alt="">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/banner-img2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/banner-img1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+        </div>
+    </div>
+    
+
+    <!-- total kategoriya -->
+        
+    <div class="total__category">
+        <div class="container total__category-container">
+
+            <div class="category-title">
+                <h1>Ommabop kategoriyalar</h1>
+                <a href="#">Hammasini ko'rish</a>
+            </div>
+
+            <div class="name-products">
+
+                <div class="part1">
+                    <a href="#">
+                        <img src="./img/leptop.svg" alt="">
+                        <span>Barcha noutbuklar</span>
+                    </a>
+                </div>
+
+                <div class="part2 part1">
+                    <a href="#">
+                        <img src="./img/television.svg" alt="">
+                        <span>Barcha televizorlar</span>
+                    </a>
+                </div>
+
+                <div class="part3 part1">
+                    <a href="#">
+                        <img src="./img/vaccum-cleaner.svg" alt="">
+                        <span>Changyutgichlar</span>
+                    </a>
+                </div>
+
+                <div class="part4 part1">
+                    <a href="#">
+                        <img src="./img/washing-machine.svg" alt="">
+                        <span>Kir yuvish mashinalari</span>
+                    </a>
+                </div>
+                
+                <div class="part5 part1">
+                    <a href="#">
+                        <img src="./img/refrigerator.svg" alt="">
+                        <span>Muzlatgichlar</span>
+                    </a>
+                </div>
+
+                <div class="part6 part1">
+                    <a href="#">
+                        <img src="./img/phone.svg" alt="">
+                        <span>Smartfonlar</span>
+                    </a>
+                </div>
+            </div>
+    </div>
+</div>
+
+<!-- factory price -->
+
+<div class="factory__price">
+    <div class="container factory-menu">
+        <div class="menu-title">"Artel - Zavod narxida"</div>
+        <ul>
+            <li><a href="#">Televizor</a></li>
+            <li><a href="#">Muzlatgich</a></li>
+            <li><a href="#">Kir yuvish mashinasi Avtomat</a></li>
+            <li><a href="#">Changyutgich</a></li>
+            <li><a href="#">Plita</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- block menu -->
+
+<div class="block-menu">
+    <div class="menu-item">
+        <div class="container television-branch">
+            <div class="item1">
+                <span class="item-title">Zavod naxida</span>
+                <img width="185" height="190" src="./img/img1.png" alt="">
+                <span class="old-price">4 505 000 so'm</span>
+                <b class="new-price">4 017 000 so'm</b>
+                <span class="monthly-price">461 955 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+120 510 so'm bonus</p></div>
+                <span class="product-name">Televizor Shivaki 49/9000</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="item2 item1">
+                <span class="item-title">Zavod naxida</span>
+                <img width="185" height="190" src="./img/img2.png" alt="">
+                <span class="old-price">3 243 000 so'm</span>
+                <b class="new-price">2 912 000 so'm</b>
+                <span class="monthly-price">334 879 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+87 360 so'm bonus</p></div>
+                <span class="product-name">Televizor Artel A43KF5500 Smart TV</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="item3 item1">
+                <span class="item-title">Zavod naxida</span>
+                <img width="185" height="190" src="./img/img3 (2).png" alt="">
+                <span class="old-price">4 249 000 so'm</span>
+                <b class="new-price">3 766 000 so'm</b>
+                <span class="monthly-price">433 090 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+112 980 so'm bonus</p></div>
+                <span class="product-name">Televizor Avalon B43MQA800 QLED Black</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="item4 item1">
+                <span class="item-title">Zavod naxida</span>
+                <img width="185" height="190" src="./img/img4.png" alt="">
+                <span class="old-price">1 538 000 so'm</span>
+                <b class="new-price">1 381 000 so'm</b>
+                <span class="monthly-price">158 814 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+41 430 so'm bonus</p></div>
+                <span class="product-name">Televizor Artel UA32H4101</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="item5 item1">
+                <span class="item-title">Zavod naxida</span>
+                <img width="185" height="190" src="./img/img5.png" alt="">
+                <span class="old-price">3 411 000 so'm</span>
+                <b class="new-price">3 063 000 so'm</b>
+                <span class="monthly-price">352 245 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+91 890 so'm bonus</p></div>
+                <span class="product-name">Shivaki US43H3403 Smart televizori</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="item6 item1">
+                <span class="item-title">Zavod naxida</span>
+                <img width="185" height="190" src="./img/img6.png" alt="">
+                <span class="old-price">2 866 000 so'm</span>
+                <b class="new-price">2 573 000 so'm</b>
+                <span class="monthly-price">295 894 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+77 190 so'm bonus</p></div>
+                <span class="product-name">Shivaki US43H3303 televizori</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+        </div>
+        <div class="container news">Yangiliklar</div>
+        <div class="container news-branch">
+            <div class="items1">
+                <span class="item-title">Yangi</span>
+                <img width="190" height="190" src="./img/termopot.jpg" alt="">
+                <b class="new-price">750 000 so'm</b>
+                <span class="monthly-price">86 249 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+22 500 so'm bonus</p></div>
+                <span class="product-name">Termopot Lamo LM-TH-45</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items2 items1">
+                <span class="item-title">Yangi</span>
+                <img width="190" height="190" src="./img/refrigerator-bosch.jpg" alt="">
+                <b class="new-price">16 571 000 so'm</b>
+                <span class="monthly-price">1 905 665 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+497 130 so'm bonus</p></div>
+                <span class="product-name">Muzlatgich BOSCH GSN36AI31U</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items3 items1">
+                <span class="item-title">Yangi</span>
+                <img width="190" height="190" src="./img/washing-dishes.jpg" alt="">
+                <b class="new-price">10 859 000 so'm</b>
+                <span class="monthly-price">1 248 784 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+325 770 so'm bonus</p></div>
+                <span class="product-name">Idish yuvish mashinasi Bosch SMS6HMW28Q</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items4 items1">
+                <span class="item-title">Yangi</span>
+                <img width="190" height="190" src="./img/realme-11.jpg" alt="">
+                <b class="new-price">3 899 000 so'm</b>
+                <span class="monthly-price">448 358 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+77 980 so'm bonus</p></div>
+                <span class="product-name">Smartfon Realme 11 4G 8/256 RMX3636 Black</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items5 items1">
+                <span class="item-title">Yangi</span>
+                <img width="190" height="190" src="./img/notebook.jpg" alt="">
+                <b class="new-price">8 350 000 so'm</b>
+                <span class="monthly-price">960 250 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+250 500 so'm bonus</p></div>
+                <span class="product-name">Noutbuk HP 250 G10 I5-1335U/16GB/SSD 512GB</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items6 items1">
+                <span class="item-title">Yangi</span>
+                <img width="190" height="190" src="./img/img5.png" alt="">
+                <b class="new-price">7 779 000 so'm</b>
+                <span class="monthly-price">894 585 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+233 370 so'm bonus</p></div>
+                <span class="product-name">Samsung 4K Crystal UHD Televizori</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+        </div>
+        <div class="container2 xits">Xitlar</div>
+        <div class="container xits-branch">
+            <div class="list1">
+                <div class="xits-title-with-img"><div class="item-title">Xit savdo</div><img src="./img/heart.svg" alt=""></div>
+                <img width="190" height="190" src="./img/washing-machine.png" alt="">
+                <b class="new-price">750 000 so'm</b>
+                <span class="monthly-price">86 249 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+22 500 so'm bonus</p></div>
+                <span class="product-name">Termopot Lamo LM-TH-45</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button>Savatchaga</button>
+                </div>
+            </div>
+            <div class="list2 list1">
+                <div class="xits-title-with-img"><div class="item-title">Xit savdo</div><img src="./img/heart.svg" alt=""></div>
+                <img width="190" height="190" src="./img/radiator.jpg" alt="">
+                <b class="new-price">1 063 000 so'm</b>
+                <span class="monthly-price">122 245 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+31 890 so'm bonus</p></div>
+                <span class="product-name">Shivaki SH-OH-1152 moyli isitgichi</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button>Savatchaga</button>
+                </div>
+            </div>
+            <div class="list3 list1">
+                <div class="xits-title-with-img"><div class="item-title">Xit savdo</div><img src="./img/heart.svg" alt=""></div>
+                <img width="190" height="190" src="./img/blender.jpg" alt="">
+                <b class="new-price">765 000 so'm</b>
+                <span class="monthly-price">87 975 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+22 950 so'm bonus</p></div>
+                <span class="product-name">Blender Polaris PHB 1072</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button>Savatchaga</button>
+                </div>
+            </div>
+            <div class="list4 list1">
+                <div class="xits-title-with-img"><div class="item-title">Xit savdo</div><img src="./img/heart.svg" alt=""></div>
+                <img width="190" height="190" src="./img/elektric-pech.png      " alt="">
+                <b class="new-price">1 408 000 so'm</b>
+                <span class="monthly-price">161 919 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+42 240 so'm bonus</p></div>
+                <span class="product-name">Mikroto'lqinli pech Samsung ME81MRTB/BW</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button>Savatchaga</button>
+                </div>
+            </div>
+            <div class="list5 list1">
+                <div class="xits-title-with-img"><div class="item-title">Xit savdo</div><img src="./img/heart.svg" alt=""></div>
+                <img width="190" height="190" src="./img/television-smart.jpg" alt="">
+                <span class="old-price">5 801 000 so'm</span>
+                <b class="new-price">5 209 000 so'm</b>
+                <span class="monthly-price">86 249 soʻmdan/oyiga</span>
+                <!-- <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+22 500 so'm bonus</p></div> -->
+                <span class="product-name">Televizor Artel A55LU8500</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button>Savatchaga</button>
+                </div>
+            </div>
+            <div class="list6 list1">
+                <div class="xits-title-with-img"><div class="item-title">Xit savdo</div><img src="./img/heart.svg" alt=""></div>
+                <img width="190" height="190" src="./img/suv-istgich.jpg" alt="">
+                <span class="old-price">1 606 000 so'm</span>
+                <b class="new-price">1 431 000 so'm</b>
+                <span class="monthly-price">164 564 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+42 930 so'm bonus</p></div>
+                <span class="product-name">Suv isitgich Royal R WH 2.0 80L</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button>Savatchaga</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="middle-banner-img">
+    <div class="container2 middle__banner">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/banner-img2.png" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/banner1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/banner-img2.png" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+</div>
+</div>
+
+
+<!-- weekly offers -->
+
+<div class="offers">
+    <div class="container offers__container">
+        <div class="menu-title">Haftalik takliflar</div>
+            <ul>
+                <li><a href="#">Barchasi</a></li>
+                <li><a href="#">Isitgichlar</a></li>
+                <li><a href="#">Smartfonlar</a></li>
+                <li><a href="#">Oshxona uchun</a></li>
+                <li><a href="#">Go'zallik</a></li>
+            </ul>
+        </div>
+        <div class="container offer-branch">
+            <div class="items1">
+                <img width="190" height="190" src="./img/shivaki-washing-dishes.png" alt="">
+                <span class="old-price">7 368 000 so'm</span>
+                <b class="new-price">5 774 000 so'm</b>
+                <span class="monthly-price">664 009 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+173 220 so'm bonus</p></div>
+                <span class="product-name">SHIVAKI DW 1408 S idish yuvish mashinasi</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items2 items1">
+                <img width="190" height="190" src="./img/refrigerator-artel.jpeg" alt="">
+                <span class="old-price">7 542 000 so'm</span>
+                <b class="new-price">6 715 000 so'm</b>
+                <span class="monthly-price">772 225 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+201 450 so'm bonus</p></div>
+                <span class="product-name">Muzlatgich ARTEL INVERTER White</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items3 items1">
+                <img width="190" height="190" src="./img/konditsaner.jpg" alt="">
+                <span class="old-price">7 579 000 so'm</span>
+                <b class="new-price">6 753 000 so'm</b>
+                <span class="monthly-price">776 595 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+202 590 so'm bonus</p></div>
+                <span class="product-name">Konditsioner Avalon AVL-12 HQ Wi-Fi</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items4 items1">
+                <img width="190" height="190" src="./img/konditsaner-flex.jpg" alt="">
+                <span class="old-price">15 519 000 so'm</span>
+                <b class="new-price">14 058 000 so'm</b>
+                <span class="monthly-price">1 616 670 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+421 740 so'm bonus</p></div>
+                <span class="product-name">Konditsioner Avalon AVL-24FQ</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items5 items1">
+                <img width="190" height="190" src="./img/cut-meat.jpg" alt="">
+                <b class="new-price">2 919 000 so'm</b>
+                <span class="monthly-price">335 684 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+87 570 so'm bonus</p></div>
+                <span class="product-name">Elektr maydalagich Kenwood MG516</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+            <div class="items6 items1">
+                <img width="190" height="190" src="./img/cut-fruit.png" alt="">
+                <b class="new-price">2 739 000 so'm</b>
+                <span class="monthly-price">314 984 soʻmdan/oyiga</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+82 170 so'm bonus</p></div>
+                <span class="product-name">Sharbat chiqargich Moulinex ZU150110</span>
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <div class="buttons">
+                    <button><img width="20" height="20" src="./img/svgexport-22.svg" alt="basket icon"></button>
+                    <button><img width="20" height="20" src="./img/svgexport-23.svg" alt="comprison icon"></button>
+                    <button><img width="20" height="20" src="./img/heart.svg" alt="heart icon"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="computers">
+    <div class="container computer__container">
+        <div class="menu-title">Noutbuklar</div>
+    </div>
+        <div class="container computer-branch">
+            <div class="items1">
+                <img width="190" height="190" src="./img/asus-TUF.jpg" alt="">
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <span class="product-name">Noutbuk Asus TUF FX517Z i7-12650H/16GB/1 TB SSD</span>
+                <span class="old-price">7 368 000 so'm</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+173 220 so'm bonus</p></div>
+                <b class="new-price">5 774 000 so'm</b>
+                <div class="monthly-price">
+                    <div class="price">1 661 750 so'm</div>
+                    *12oy
+                </div>
+            </div>
+            <div class="items2 items1">
+                <img width="190" height="190" src="./img/asus-X.jpg" alt="">
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <span class="product-name">Noutbuk ASUS X1500E I7-1165G7/8GB/512GB SSD+32GB OPTANE</span>
+                <span class="old-price">7 368 000 so'm</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+173 220 so'm bonus</p></div>
+                <b class="new-price">5 774 000 so'm</b>
+                <div class="monthly-price">
+                    <div class="price">1 661 750 so'm</div>
+                    *12oy
+                </div>
+            </div>
+            <div class="items3 items1">
+                <img width="190" height="190" src="./img/lenovo-IP3.png" alt="">
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <span class="product-name">Noutbuk Lenovo Ideapad 3 15ALC6 AMD Ryzen 7 5700U/8 GB/HDD 1TB</span>
+                <span class="old-price">7 368 000 so'm</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+173 220 so'm bonus</p></div>
+                <b class="new-price">5 774 000 so'm</b>
+                <div class="monthly-price">
+                    <div class="price">1 661 750 so'm</div>
+                    *12oy
+                </div>
+            </div>
+            <div class="items4 items1">
+                <img width="190" height="190" src="./img/HP-envy.webp" alt="">
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <span class="product-name">Noutbuk HP Envy X360 15-FH0013DX R5-7530U </span>
+                <span class="old-price">7 368 000 so'm</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+173 220 so'm bonus</p></div>
+                <b class="new-price">5 774 000 so'm</b>
+                <div class="monthly-price">
+                    <div class="price">1 661 750 so'm</div>
+                    *12oy
+                </div>
+            </div>
+            <div class="items5 items1">
+                <img width="190" height="190" src="./img/lenovo-gaming.jpg" alt="">
+                <div class="stars">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <img width="16" height="16" src="./img/star.svg" alt="star icon">
+                    <span>24</span>
+                </div>
+                <span class="product-name">Noutbuk Asus TUF FX517Z i7-12650H/16GB/1 TB SSD</span>
+                <span class="old-price">7 368 000 so'm</span>
+                <div class="bonus"><img width="15" height="15" src="./img/cashback.svg" alt=""><p>+173 220 so'm bonus</p></div>
+                <b class="new-price">5 774 000 so'm</b>
+                <div class="monthly-price">
+                    <div class="price">1 661 750 so'm</div>
+                    *12oy
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="brends">
+    <div class="container brend-container">
+        <div class="brend-title">Ommabop brendlar</div>
+        <ul class="brends-img">
+            <li><a href="#"><img width="128" height="64" src="./img/artel.png" alt=""></a></li>
+            <li><a href="#"><img width="128" height="64" src="./img/apple.png" alt=""></a></li>
+            <li><a href="#"><img width="128" height="64" src="./img/samsung.png" alt=""></a></li>
+            <li><a href="#"><img width="128" height="64" src="./img/lg3.png" alt=""></a></li>
+            <li><a href="#"><img width="128" height="64" src="./img/xiaomi1.png" alt=""></a></li>
+            <li><a href="#"><img width="128" height="64" src="./img/hp.jpg" alt=""></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="mediapark">
+    <div class="container mediapark-container">
+        <div class="mediapark-title">Nega aynan Mediapark?</div>
+        <div class="mediapark-page">
+            <div class="explanation">
+                <a href="#">
+                    <div class="icon"> <img width="24" height="24" src="./img/clock-check.svg" alt=""></div>
+                    <span>Sifatli yetkazib berish xizmati</span>
+                    <p>Buyurtmangiz siz istagan vaqtda ishonchli va xavfsiz yetkazib beriladi.</p>
+                </a>
+            </div>
+            <div class="explanation">
+                <a href="#">
+                    <div class="icon"> <img width="24" height="24" src="./img/truck-fast.svg" alt=""></div>
+                    <span>Cheklovlarsiz to'lov usuli</span>
+                    <p>Xaridlar uchun nafaqat mahalliy pul oʻtkazish tizimlari orqali, balki VISA va Mastercard bilan ham osongina to'lashingiz mumkin.</p>
+                </a>
+            </div>
+            <div class="explanation">
+                <a href="#">
+                    <div class="icon"> <img width="24" height="24" src="./img/tool.svg" alt=""></div>
+                    <span>Kafolat va ishonchli xizmat</span>
+                    <p>Mediapark barcha mahsulotlari uchun 1 yil davomida bepul ta'mirlash va yetkazib berishni kafolatlaydi.</p>
+                </a>
+            </div>
+            <div class="explanation">
+                <a href="#">
+                    <div class="icon"> <img width="24" height="24" src="./img/bank-note.svg" alt=""></div>
+                    <span>Hamyonbop narxlar</span>
+                    <p>Barcha mahsulotlarni bozorda bemalol raqobat qila oladigan narxlarda topishingiz mumkin.</p>
+                </a>
+            </div>
+            <div class="explanation">
+                <a href="#">
+                     <div class="icon"> <img width="24" height="24" src="./img/building.svg" alt=""></div>
+                    <span>Butun O'zbekiston bo'ylab doʻkonlar</span>
+                    <p>Respublika boʻyicha jami 38 ta Mediapark savdo nuqtasi boʻlib, siz oʻzingizga eng yaqin doʻkondan xarid qilishingiz mumkin.</p>
+                </a>
+            </div>
+            <div class="explanation">
+                <a href="#">
+                     <div class="icon"> <img width="24" height="24" src="./img/coins-stacked.svg" alt=""></div>
+                    <span>Katta aksiya va chegirmalar</span>
+                    <p>Mijozlar uchun doimiy kunlik chegirma va  har oyda yirik aksiyalar taqdim etiladi.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- online sopping -->
+
+<div class="online__shopping">
+    <div class="container online-shopping-container">
+        <div class="aside-text">
+            <h2>Sizning doʻkoningiz endi doimo yoningizda!</h2>
+            <p>Smartfonlar, planshetlar va eng soʻnggi elektronika mahsulotlarini Mediapark ilovasida topishingiz mumkin.</p>
+            <div class="social-media">
+                <a href="#"><img width="140" height="50" src="./img/app-story.svg" alt=""></a>
+                <a href="#"><img width="140" height="50" src="./img/google-play.svg" alt=""></a>
+                <a href="#"><img width="140" height="50" src="./img/app-gallary.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="aside-img">
+            <img src="./img/storeimg.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
